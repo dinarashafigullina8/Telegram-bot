@@ -1,6 +1,6 @@
 import telebot
-
-bot = telebot.TeleBot('5234828077:AAHPtABuKfSuE_lRey1WT4cV-oHIYEngTlk')
+from settings import TOKEN
+bot = telebot.TeleBot(TOKEN)
 
 import requests
 
